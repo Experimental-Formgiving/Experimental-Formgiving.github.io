@@ -3,3 +3,5 @@ description: Information for course ID5231
 theme: just-the-docs
 
 url: experimental-formgiving.github.io/
+
+search_enabled: true
