@@ -4,4 +4,4 @@ theme: just-the-docs
 
 url: experimental-formgiving.github.io/
 
-search_enabled: true
+search_enabled: false
