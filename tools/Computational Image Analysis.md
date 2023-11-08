@@ -13,7 +13,10 @@ Images consist of pixels, which is data that you can use to quantify relations b
 An accessible introduction is the book [Distant Viewing -
 Computational Exploration of Digital Images](https://mitpress.mit.edu/9780262546133/distant-viewing/) which only recently came out and can be freely accessed a MIT Press. In [chapter 2](https://direct.mit.edu/books/oa-monograph/chapter-pdf/2163341/c001100_9780262375160.pdf), the authors explain that before analysing images you first need to extract information, a process they call *annotation* which I rather replace with *computational annotation* as we obviously can also annotate with humans (crowdsourcing could solve a scaling problem and it would still be possible to do 'distant' viewing, i.e. compare a relativly large body of pictures).
 
+# Colab notebooks
 
+## Average image calculation
+https://colab.research.google.com/drive/1XdmI7N2V3raNM1o2JFG-VEMJD0MM16vA?usp=sharing
 
 
 <!--
