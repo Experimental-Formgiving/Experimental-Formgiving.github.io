@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Behavioural Image Analysis"
+title: "Data Analysis General"
 has_children: false
 parent: "Tools"
-nav_order: 2
+nav_order: 3
 ---
 
 # Introduction
