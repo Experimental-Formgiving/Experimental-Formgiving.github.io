@@ -1,6 +1,7 @@
 ---
-title: EFVI 2023-2024
+title: Intro
 layout: home
+nav_order: 0
 ---
 
 Experimental Formgiving of Visual Information is concerned with doing visual research and giving form to these insights by designing an ‘experiment’, or any another visual design. We will mix and combine a wide variety of design research approaches that all center around visual material. We will not work with a fixed design brief for your assignment, but rather rely on you coming up with a design brief based on your *visual research*.
@@ -9,4 +10,4 @@ The course is successor or Visual Communication Design (VCD, ID4230) with which 
 
 ![V+D Framework](images/formcontent.png)
 
-So now you're totally up-to-date with the Vision and Depiction framework, let's dive into the first lecture. 
+So now you're totally up-to-date with the Vision and Depiction framework, let's dive into the first lecture.
