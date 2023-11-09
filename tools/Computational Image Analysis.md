@@ -14,8 +14,13 @@ An accessible introduction is the book [Distant Viewing -
 Computational Exploration of Digital Images](https://mitpress.mit.edu/9780262546133/distant-viewing/) which only recently came out and can be freely accessed a MIT Press. In [chapter 2](https://direct.mit.edu/books/oa-monograph/chapter-pdf/2163341/c001100_9780262375160.pdf), the authors explain that before analysing images you first need to extract information, a process they call *annotation* which I rather replace with *computational annotation* as we obviously can also annotate with humans (crowdsourcing could solve a scaling problem and it would still be possible to do 'distant' viewing, i.e. compare a relativly large body of pictures).
 
 # Colab notebooks
+We will use python notebooks via [google colab](https://colab.research.google.com). They seem the most versatile tool to share data analysis although the downside is obviously that we rely on big tech. If this choice meets objection we have to find some alternative like [Jupyter](https://jupyter.org) but this will cost considerably more time and effort, and this is only a short course.
+
+Some extra advantages of google colab is that computation happens in the cloud (i.e. you do not need a powerful computer) and many AI (including generative stuff like Stable Diffusion) applications can be run. You probably need to upgrade your account if you want to do heavy computation: a colab pro account is 11 euro's and works quite good (but first check if you really need it), a colab pro+ account is 51 euro's and then you'll have the advantage that you can run them in the background (while closing your browser): not really necessary for this course I think!
 
 ## Average image calculation
+
+
 https://colab.research.google.com/drive/1XdmI7N2V3raNM1o2JFG-VEMJD0MM16vA?usp=sharing
 
 
