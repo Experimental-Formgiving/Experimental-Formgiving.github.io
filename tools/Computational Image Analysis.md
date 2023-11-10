@@ -41,11 +41,14 @@ Let's do two other color channels (feel free to try out other combinations in th
 Here, there is a perhaps not entirely trivial pattern: red and blue seem to be correlated. You can find an explanation yourself.
 
 ## Average image calculation
-An interesting way of finding patterns in image collections is taking the average. Per pixel you literally compute the average value, and you thus need to have images of exactly similar dimensions. Don't worry, the notebook does this for you but be aware that everything gets scaled to a small square image.
+An interesting way of finding patterns in image collections is taking the average. Per pixel you literally compute the average value, and you thus need to have images of exactly similar dimensions. Don't worry, the [colab notebook]((https://colab.research.google.com/drive/1XdmI7N2V3raNM1o2JFG-VEMJD0MM16vA?usp=sharing) does this for you but be aware that everything gets scaled to a small square image.
 
-[Average image notebook](https://colab.research.google.com/drive/1XdmI7N2V3raNM1o2JFG-VEMJD0MM16vA?usp=sharing)
+For some reason I have a set of BMW photos that I used on other examples. Here I used it to create an average image:
 
 ![](/images/bmw_small_average.png]
+
+It does not show much except the intuition that photos of BMWs (or cars in general) have varying vantage points, something we also found a later analysis where we let a neural network map the most salient differences (where vantage point seemed to play an important role). Note that vantage point variation is not necessarily trivial, some things you only photograph from certain angles, such as a face: you hardly see portraits of backsides of human heads.
+
 
 
 
