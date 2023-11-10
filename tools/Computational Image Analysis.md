@@ -19,12 +19,15 @@ We will use python notebooks via [google colab](https://colab.research.google.co
 Some extra advantages of google colab is that computation happens in the cloud (i.e. you do not need a powerful computer) and many AI (including generative stuff like Stable Diffusion) applications can be run. You probably need to upgrade your account if you want to do heavy computation: a colab pro account is 11 euro's and works quite good (but first check if you really need it), a colab pro+ account is 51 euro's and then you'll have the advantage that you can run them in the background (while closing your browser): not really necessary for this course I think!
 
 ## Movieposter colors
+
+![](/images/moviepostergrid.jpg)
+
 The first case study discussed in [Distant Viewing -
 Computational Exploration of Digital Images](https://mitpress.mit.edu/9780262546133/distant-viewing/) concerns the design of movie posters, and in particular their usage of colours. Let's try to loosely replicate their analysis.
 
-In this [colab notebook](https://colab.research.google.com/drive/1drDMUUZ6gK2udRu9Frza_XjcNZBmttXD?usp=sharing) I analyse movies posters that I found on [Kaggle](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Framan77768%2Fmovie-classifier%2Fdata). Imagedatasets come in all kinds of formats, this one is csv file with image names and their movie genre, and a subfolder with all the images. It looks like this:
+In this [colab notebook](https://colab.research.google.com/drive/1drDMUUZ6gK2udRu9Frza_XjcNZBmttXD?usp=sharing) I analyse movies posters that I found on [Kaggle](https://www.kaggle.com/datasets/raman77768/movie-classifier/data). Imagedatasets come in all kinds of formats, this one is csv file with image names and their movie genre, and a subfolder with all the images. It looks like this:
 
-![V+D Framework](/images/kagglePandasFile.jpg)
+![](/images/kagglePandasFile.jpg)
 
 ## Average image calculation
 An interesting way of finding patterns in image collections is taking the average. Per pixel you literally compute the average value, and you thus need to have images of exactly similar dimensions. Don't worry, the notebook does this for you but be aware that everything gets scaled to a small square image.
