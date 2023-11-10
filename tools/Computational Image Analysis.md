@@ -22,6 +22,10 @@ Some extra advantages of google colab is that computation happens in the cloud (
 The first case study discussed in [Distant Viewing -
 Computational Exploration of Digital Images](https://mitpress.mit.edu/9780262546133/distant-viewing/) concerns the design of movie posters, and in particular their usage of colours. Let's try to loosely replicate their analysis.
 
+In this [colab notebook](https://colab.research.google.com/drive/1drDMUUZ6gK2udRu9Frza_XjcNZBmttXD?usp=sharing) I analyse movies posters that I found on [Kaggle](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Framan77768%2Fmovie-classifier%2Fdata). Imagedatasets come in all kinds of formats, this one is csv file with image names and their movie genre, and a subfolder with all the images. It looks like this:
+
+![V+D Framework](/images/kagglePandasFile.jpg)
+
 ## Average image calculation
 An interesting way of finding patterns in image collections is taking the average. Per pixel you literally compute the average value, and you thus need to have images of exactly similar dimensions. Don't worry, the notebook does this for you but be aware that everything gets scaled to a small square image.
 
