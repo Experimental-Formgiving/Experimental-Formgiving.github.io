@@ -29,14 +29,23 @@ In this [colab notebook](https://colab.research.google.com/drive/1drDMUUZ6gK2udR
 
 ![](/images/kagglePandasFile.jpg)
 
+From the images we can collect all kinds of color information, for example the mean color channels. Depending on the color space you are woking it, that could be red, green and blue or hue, saturation and value for RGB and HSV spaces, respectively. To get an intuition whether these computations make sense, and allign with what we see with our own eyes, we can use the mean poster colors as coordinates to plot thumbnail posters, here you see saturation in the x-axis and value on the y-axis:
 ![](/images/saturation_value.jpg)
 
-![](/images/hue_value.jpg)
+It looks pretty cool, and also like we are on to something because ... there is a clear pattern! But alas, the pattern is by construction: we wanted to plot from low saturated on the left (colourless) to high saturation on the right (colourful), and from dark to light in the vertical direction. Nevertheless, there is something interesting about the image, aside its prettiness, which is that apparently our color extraction works, so it is a sanity check that we did not make any mistakes.
+
+Let's do two other color channels (feel free to try out other combinations in the colab notebook), red vs blue:
+
+![](/images/red_blue.jpg)
+
+Here, there is a perhaps not entirely trivial pattern: red and blue seem to be correlated. You can find an explanation yourself.
 
 ## Average image calculation
 An interesting way of finding patterns in image collections is taking the average. Per pixel you literally compute the average value, and you thus need to have images of exactly similar dimensions. Don't worry, the notebook does this for you but be aware that everything gets scaled to a small square image.
 
 [Average image notebook](https://colab.research.google.com/drive/1XdmI7N2V3raNM1o2JFG-VEMJD0MM16vA?usp=sharing)
+
+![](/images/bmw_small_average.png]
 
 
 
