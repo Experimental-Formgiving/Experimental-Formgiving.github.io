@@ -45,7 +45,7 @@ An interesting way of finding patterns in image collections is taking the averag
 
 For some reason I have a set of BMW photos that I used on other examples. Here I used it to create an average image:
 
-![](/images/bmw_small_average.png]
+![](/images/bmw_small_average.png)
 
 It does not show much except the intuition that photos of BMWs (or cars in general) have varying vantage points, something we also found a later analysis where we let a neural network map the most salient differences (where vantage point seemed to play an important role). Note that vantage point variation is not necessarily trivial, some things you only photograph from certain angles, such as a face: you hardly see portraits of backsides of human heads.
 
