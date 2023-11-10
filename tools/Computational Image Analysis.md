@@ -29,6 +29,10 @@ In this [colab notebook](https://colab.research.google.com/drive/1drDMUUZ6gK2udR
 
 ![](/images/kagglePandasFile.jpg)
 
+![](/images/saturation_value.jpg)
+
+![](/images/hue_value.jpg)
+
 ## Average image calculation
 An interesting way of finding patterns in image collections is taking the average. Per pixel you literally compute the average value, and you thus need to have images of exactly similar dimensions. Don't worry, the notebook does this for you but be aware that everything gets scaled to a small square image.
 
