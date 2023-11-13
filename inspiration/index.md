@@ -12,3 +12,5 @@ Besides the specific examples on subpages in this section, here are some general
 Kyle McDonald is a really cool artist who gave a nice introduction about code, ai and art in the recent Design & AI symposium in Delft:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4rGWkhjy4is?si=ySSN1J3hHg3Ft_3y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Mind that Kyle also refers to various archives, and thus collections, which is the core material of our course!
